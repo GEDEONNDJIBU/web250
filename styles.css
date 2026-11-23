@@ -1,3 +1,4 @@
+
 /* =========================
    GENERAL PAGE
 ========================= */
@@ -7,11 +8,18 @@
 }
 
 body {
-    margin: 0;
+    max-width: 1200px;
+    margin: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
+    /* White background keeps the page clean and readable. */
     background-color: white;
     color: #222;
     line-height: 1.6;
+}
+
+/* Secondary font for headings */
+h1, h2, h3 {
+    font-family: Georgia, serif;
 }
 
 
@@ -21,6 +29,7 @@ body {
 
 header {
     background-color: darkred;
+    /* White text provides contrast against the dark red header. */
     color: white;
     padding: 25px;
     text-align: center;
@@ -43,6 +52,7 @@ main {
     margin: 30px auto;
     padding: 25px;
 
+    /* White background separates the content from the page. */
     background-color: white;
 
     border: 2px solid lightblue;
@@ -50,11 +60,12 @@ main {
 
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
-main p{
-   color: #222;
-   font-size: 18px;
-   line-height: 1.7;
-   margin: 20px 0;
+
+main p {
+    color: #222;
+    font-size: 18px;
+    line-height: 1.7;
+    margin: 20px 0;
 }
 
 
@@ -82,8 +93,13 @@ nav a {
     border-radius: 6px;
 }
 
+nav a:visited {
+    color: darkred;
+}
+
 nav a:hover {
     background-color: darkred;
+    /* White text contrasts with the dark red hover background. */
     color: white;
 }
 
@@ -136,8 +152,12 @@ a {
     color: darkred;
 }
 
+a:visited {
+    color: darkred;
+}
+
 a:hover {
-    color: #3498db;
+    color: lightblue;
 }
 
 
@@ -147,6 +167,7 @@ a:hover {
 
 footer {
     background-color: darkred;
+    /* White text is used for contrast against the footer. */
     color: white;
 
     text-align: center;
@@ -170,6 +191,10 @@ footer nav a {
     border: 1px solid lightblue;
 }
 
+footer nav a:visited {
+    color: white;
+}
+
 footer nav a:hover {
     background-color: lightblue;
     color: darkred;
@@ -181,6 +206,7 @@ footer nav a:hover {
 footer p a {
     display: inline-block;
 
+    /* White buttons distinguish validation links from the footer. */
     background-color: white;
     color: darkred;
 
@@ -192,6 +218,10 @@ footer p a {
 
     border-radius: 5px;
     border: 2px solid lightblue;
+}
+
+footer p a:visited {
+    color: darkred;
 }
 
 footer p a:hover {
@@ -220,3 +250,4 @@ footer p a:hover {
         margin: 5px 0;
     }
 }
+
