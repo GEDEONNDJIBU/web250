@@ -29,8 +29,7 @@ h1, h2, h3 {
 
 header {
     background-color: darkred;
-    /* White text it is used to provide readable contrast against the dark red background.*/
-    color: white;
+    color: white; /* White text it is used to provide readable contrast against the dark red background.*/
     padding: 25px;
     text-align: center;
     border-bottom: 5px solid lightblue;
@@ -167,8 +166,7 @@ a:hover {
 
 footer {
     background-color: darkred;
-    /* White text it is used to provide readable contrast against the dark red background. */
-    color: white;
+    color: white; /* White text it is used to provide readable contrast against the dark red background.*/
 
     text-align: center;
 
