@@ -245,4 +245,44 @@ footer p a:hover {
         margin: 5px 0;
     }
 }
+h6 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+    margin: 15px 0;
+}
+
+figure {
+    text-align: center;
+    margin: 20px auto;
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+figcaption {
+    font-style: italic;
+    margin-top: 10px;
+}
+
+main li {
+    margin-bottom: 12px;
+}
+
+blockquote {
+    text-align: center;
+    font-style: italic;
+    margin: 25px auto;
+    padding: 15px;
+}
+
+@media screen and (max-width: 600px) {
+    h6 {
+        font-size: 3.8vw;
+    }
+}
 
