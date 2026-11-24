@@ -167,7 +167,7 @@ a:hover {
 
 footer {
     background-color: darkred;
-    /* White text is used for contrast against the footer. */
+    /* White text ensures readable contrast against the dark red background. */
     color: white;
 
     text-align: center;
