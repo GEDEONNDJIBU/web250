@@ -29,7 +29,7 @@ h1, h2, h3 {
 
 header {
     background-color: darkred;
-    /* White text it is used to provide readable contrast against the dark red background. */
+    /* White text it is used to provide readable contrast against the dark red background.*/
     color: white;
     padding: 25px;
     text-align: center;
@@ -52,7 +52,7 @@ main {
     margin: 30px auto;
     padding: 25px;
 
-    /* White background separates the content from the page. */
+    /* White background separates the content from the page.*/
     background-color: white;
 
     border: 2px solid lightblue;
