@@ -11,8 +11,8 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
-    /* White background keeps the page clean and readable. */
-    background-color: white;
+
+    background-color: white;  /* White background keeps the page clean and readable. */
     color: #222;
     line-height: 1.6;
 }
@@ -50,9 +50,7 @@ main {
     max-width: 1100px;
     margin: 30px auto;
     padding: 25px;
-
-    /* White background separates the content from the page.*/
-    background-color: white;
+    background-color: white;  /* White background separates the content from the page.*/
 
     border: 2px solid lightblue;
     border-radius: 12px;
@@ -98,8 +96,7 @@ nav a:visited {
 
 nav a:hover {
     background-color: darkred;
-    /* White text contrasts with the dark red hover background. */
-    color: white;
+    color: white;  /* White text contrasts with the dark red hover background. */
 }
 
 
@@ -185,12 +182,12 @@ footer nav {
 }
 
 footer nav a {
-    color: white;
+    color: white; /* White text it is used to provide readable contrast against the dark red background.*/
     border: 1px solid lightblue;
 }
 
 footer nav a:visited {
-    color: white;
+    color: white; /* White text it is used to provide readable contrast against the dark red background.*/
 }
 
 footer nav a:hover {
